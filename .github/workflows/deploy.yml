@@ -27,9 +27,6 @@ jobs:
     - name: Build Project
       run: ng build --configuration production --base-href "/"
 
-    - name: Create CNAME file
-      run: echo "www.modulorium.dev" > dist/browser/CNAME
-
     - name: Set Git identity
       run: |
         git config user.name "GitHub Actions"
@@ -43,4 +40,4 @@ jobs:
 
     - name: Deploy to GitHub Pages
       run: |
-        ng deploy --base-href=/ --dir=dist/browser
+        ng deploy --base-href=/ --dir=dist/browser --cname=www.modulorium.dev
