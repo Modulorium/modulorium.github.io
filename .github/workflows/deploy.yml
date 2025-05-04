@@ -1,40 +1,46 @@
-name: Deploy to GitHub Pages
+name: Deploy Angular App to GitHub Pages
 
 on:
   push:
     branches:
       - main
 
-permissions:
-  contents: write
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    - name: Checkout Code
+      uses: actions/checkout@v2
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '22'
 
-      - name: Install dependencies
-        run: npm ci
+    - name: Install Dependencies
+      run: |
+        npm install
+        npm install -g @angular/cli
+        npm install angular-cli-ghpages
 
-      - name: Build Angular project
-        run: npm run build -- --base-href=/
+    - name: Build Project
+      run: ng build --configuration production --base-href "/"
 
-      - name: Add CNAME file
-        run: echo 'www.modulorium.dev' > dist/modulorium-website/CNAME
+    - name: Create CNAME file
+      run: echo "www.modulorium.dev" > dist/browser/CNAME
 
-      - name: Copy 404.html for Angular routing support
-        run: cp src/404.html dist/modulorium-website/404.html
+    - name: Set Git identity
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: dist/modulorium-website
+    - name: Authenticate with GitHub
+      env:
+        GH_TOKEN: ${{ secrets.TOKEN }}
+      run: |
+        git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/Modulorium/modulorium.github.io.git
+
+    - name: Deploy to GitHub Pages
+      run: |
+        ng deploy --base-href=/ --dir=dist/browser

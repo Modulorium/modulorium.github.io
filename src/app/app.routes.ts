@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import { HomePageComponent } from './page/home-page/home-page.component';
 import { LostComponent } from './page/lost/lost.component';
 import { LinksComponent } from './page/general/links/links.component';
 import { GeneralComponent } from './page/general/general.component';
