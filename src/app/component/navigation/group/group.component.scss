@@ -1,0 +1,50 @@
+
+.box {
+
+    padding: 5px 10px 5px 10px;
+
+    // Group Title
+    .title {
+
+        font-size: 25px;
+        text-align: center;
+        border-bottom: 2px solid var(--navigation-text);
+
+    }
+
+    // Individual Clickable Options
+    .option_box {
+        margin: 10px 0px;
+        cursor: pointer;
+        display: flex;
+        border: 2px dashed transparent;
+
+        &:hover {
+            background: var(--navigation-background-xl);
+            border-radius: 5px;
+        }
+        &.selected {
+            border: 2px dashed var(--navigation-text);
+            border-radius: 5px;
+        }
+        .vertical_centering {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+// General Text and Icon Formatting
+
+.txt {
+    font-family: 'main';
+    color: var(--navigation-text);
+    margin: 0px;
+}
+
+.icon {
+    color: var(--navigation-text);
+    vertical-align: bottom;
+    font-size: 22px;
+    margin-right: 10px;
+}

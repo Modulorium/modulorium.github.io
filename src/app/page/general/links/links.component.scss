@@ -1,0 +1,103 @@
+
+
+.page {
+
+    width: 100%;
+
+    font-family: 'main';
+    color: var(--master-text);
+    text-align: center;
+    font-size: 30px;
+
+    .links {
+        
+        display: grid;
+        padding: 5vw;
+        gap: 5vw;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+        .link {
+
+            background: var(--master-panel);
+            border: 5px solid var(--master-border);
+            border-radius: 5px;
+            aspect-ratio: 1/1;
+
+            .top {
+                display: flex;
+                background: var(--master-panel-shaded);
+                border-bottom: 5px solid var(--master-border);
+                height: 25%;
+                
+                .badge {
+                    width: 25%;
+                    aspect-ratio: 1/1;
+                    font-size: 55px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    border-right: 5px solid var(--master-border);
+
+                    div {
+                        font-size: 100%;
+                    }
+                }
+                .title {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 80%;
+                    text-align: center;
+                    font-size: 100%;
+
+                    .username {
+                        color: var(--master-text-faded);
+                        font-size: 60%;
+                    }
+                }
+            }
+            .bottom {
+                height: 75%;
+                cursor: pointer;
+
+                .logo {
+                    width: 100%;
+                    height: 80%;
+
+                    img{
+                        width: 80%;
+                        height: 80%;
+                        object-fit: contain;
+                        margin: 10%;
+                    }
+                }
+
+                .platofrm {
+                    height: 20%;
+                    width: 100%;
+                }
+            }
+
+        }
+
+    }
+
+
+}
+
+p {
+    margin: 0;
+}
+
+// @media (max-width: calc(350px * 8)) {
+//     .links {
+//         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+//     }
+// }
+
+// @media (min-width: calc(350px * 8)) {
+//     .links {
+//         grid-template-columns: repeat(5, 1fr);
+
+//     }
+// }

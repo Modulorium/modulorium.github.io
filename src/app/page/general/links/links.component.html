@@ -1,0 +1,42 @@
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+<div class="page">
+
+    <div class="links">
+
+        @for (link of links; track link) {
+
+            <!-- [style.background]="link.platform.length >= 2 ? link.color : 'transparent'" [style.border]="link.platform.length < 2 ? '5px solid ' + link.color : 'transparent'" -->
+
+            <div class="link" *ngIf="link.visible">
+
+                <div class="top">
+                    <div class="badge" [style.color]="link.color">
+                        <div class="material-symbols-outlined icon">{{link.category_icon}}</div>
+                    </div>
+                    <div class="title">
+                        <p>{{link.name == "" ? link.username : link.name}}</p>
+                        <p *ngIf="link.name != ''" class="username">{{link.username}}</p>
+                        <!-- <p class="username">{{link.username}}</p> -->
+                    </div>
+
+                </div>
+                <a [href]="link.type == 'external' ? link.link : 'mailto:'+link.link" target="_blank" [title]="link.link">
+                <div class="bottom">
+                    <div class="logo">
+                        <img src="image/platform/{{link.icon}}.png" alt="{{link.platform}} Logo">
+                    </div>
+                    <div class="platform">
+                        <p>{{link.platform}}</p>
+                    </div>
+                </div>
+                </a>
+            
+            </div>
+        
+        }
+
+    </div>
+
+</div>

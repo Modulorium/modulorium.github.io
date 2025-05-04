@@ -1,0 +1,20 @@
+
+<div class="box" [ngClass]="collapsed ? 'collapsed' : ''">
+
+    <h1 class="txt title" *ngIf="data.title && !collapsed"><span class="material-symbols-outlined icon" *ngIf="data.icon">{{data.icon}}</span><span>{{data.title}}</span></h1>
+
+    @for (option of data.options; track option) {
+
+        <div class="option_box" (click)="clickOption(option.link)" [ngClass]="linkMatches(option.link) ? 'selected' : ''" title="[{{activeSection}}]: {{data.title ? data.title + ': ' : ''}}{{option.title}}" *ngIf="option.visible">
+            <div class="vertical_centering">
+                <span class="material-symbols-outlined icon">{{option.icon}}</span>
+            </div>
+            <div class="vertical_centering" *ngIf="!collapsed">
+                <h2 class="txt"><span>{{option.title}}</span></h2>
+            </div>
+
+        </div>
+
+    }
+
+</div>

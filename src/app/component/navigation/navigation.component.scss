@@ -1,0 +1,102 @@
+
+.navigation {
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.collapsed {
+    .navigation {
+        width: 55px;
+        .header .main_title {
+            font-size: 30px;
+        }
+        .collapse .vertical_centering .icon{
+            margin-right: 3px;
+        }
+    }
+    .buffer {
+        width: 55px;
+    }
+}
+
+
+.txt {
+    font-family: 'main';
+    color: var(--navigation-text);
+    margin: 0px;
+
+    &.main_title {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 10px;
+        line-height: 40px;
+    }
+}
+
+.section {
+    
+    &.header {
+        background: var(--navigation-background-xd);
+        height: 60px;
+    }
+    
+    &.options {
+        background: var(--master-panel);
+        
+        &.primary {
+            background: var(--master-panel-shaded);
+            border: 5px solid var(--master-border);
+        }
+
+        &.secondary {
+            flex: 1;
+            padding-top: 10px;
+            border-left: 5px solid var(--master-border);
+            border-right: 5px solid var(--master-border);
+        }
+
+    }
+
+    &.collapse {
+        background: var(--navigation-background-d);
+        border: 5px solid var(--master-border);
+        min-height: 45px;
+        display: flex;
+        justify-content: center;
+
+        cursor: pointer;
+        &:hover {
+            background: var(--navigation-background-l);
+        }
+
+        .vertical_centering {
+            display: flex;
+            align-items: center;
+
+            .txt {
+                font-family: 'main';
+                color: var(--navigation-text);
+                margin: 0px;
+            }
+            
+            .icon {
+                color: var(--navigation-text);
+                vertical-align: bottom;
+                font-size: 30px;
+                margin-right: 10px;
+            }
+        }
+        
+    }
+
+}
+
+.buffer {
+    width: 220px;
+    height: 100vh;
+    background: pink;
+}

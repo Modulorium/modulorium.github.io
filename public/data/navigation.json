@@ -1,0 +1,199 @@
+{
+  "Main": [
+    {
+      "title": "",
+      "icon": "",
+      "options": [
+        {
+          
+          "visible": true,
+          "title": "General",
+          "icon": "home",
+          "link": ">General|/"
+        },
+        {
+          "visible": false,
+          "title": "Minecraft",
+          "icon": "north_east",
+          "link": ">Minecraft|/minecraft"
+        },
+        {
+          "visible": false,
+          "title": "Archive",
+          "icon": "inventory_2",
+          "link": ">Archive|/archive"
+        },
+        {
+          "visible": false,
+          "title": "Development",
+          "icon": "code",
+          "link": ">Development|/development"
+        }
+      ]
+    }
+  ],
+  "General": [
+    {
+      "title": "",
+      "icon": "",
+      "options": [
+        {
+          "visible": true,
+          "title": "Home",
+          "icon": "home",
+          "link": "~/"
+        },
+        {
+          "visible": true,
+          "title": "Links",
+          "icon": "link",
+          "link": "~/links"
+        },
+        {
+          "visible": false,
+          "title": "People",
+          "icon": "group",
+          "link": "~/people"
+        }
+      ]
+    }
+  ],
+  "Minecraft": [
+    {
+      "title": "",
+      "icon": "",
+      "options": [
+        {
+          "visible": true,
+          "title": "Home",
+          "icon": "home",
+          "link": "~/minecraft"
+        },
+        {
+          "visible": true,
+          "title": "Timeline",
+          "icon": "timeline",
+          "link": "~/minecraft/timeline"
+        }
+      ]
+    },
+    {
+      "title": "Gamemode 4",
+      "icon": "",
+      "options": [
+        {
+          "visible": true,
+          "title": "Gamemode 4",
+          "icon": "grid_view",
+          "link": "~/minecraft/gm4"
+        },
+        {
+          "visible": true,
+          "title": "Servers",
+          "icon": "dns",
+          "link": "~/minecraft/gm4/servers"
+        },
+        {
+          "visible": true,
+          "title": "Modules",
+          "icon": "package_2",
+          "link": "~/minecraft/gm4/modules"
+        }
+      ]
+    },
+    {
+      "title": "Smithed",
+      "icon": "",
+      "options": [
+        {
+          "visible": true,
+          "title": "Smithed",
+          "icon": "hardware",
+          "link": "~/minecraft/smithed"
+        },
+        {
+          "visible": true,
+          "title": "Summit",
+          "icon": "volcano",
+          "link": "~/minecraft/smithed/summit"
+        }
+      ]
+    }
+  ],
+  "Archive": [
+    {
+      "title": "",
+      "icon": "",
+      "options": [
+        {
+          "visible": true,
+          "title": "Home",
+          "icon": "home",
+          "link": "~/archive"
+        },
+        {
+          "visible": true,
+          "title": "Youtube",
+          "icon": "slideshow",
+          "link": "~/archive/youtube"
+        },
+        {
+          "visible": true,
+          "title": "Games",
+          "icon": "sports_esports",
+          "link": "~/archive/games"
+        },
+        {
+          "visible": true,
+          "title": "Books",
+          "icon": "book_2",
+          "link": "~/archive/books"
+        },
+        {
+          "visible": true,
+          "title": "Movies",
+          "icon": "movie",
+          "link": "~/archive/movies"
+        }
+      ]
+    }
+  ],
+  "Development": [
+    {
+      "title": "",
+      "icon": "",
+      "options": [
+        {
+          "visible": true,
+          "title": "Home",
+          "icon": "home",
+          "link": "~/development"
+        },
+        {
+          "visible": true,
+          "title": "Tools",
+          "icon": "handyman",
+          "link": "~/development/tools"
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "icon": "",
+      "options": [
+        {
+          "visible": true,
+          "title": "Projects",
+          "icon": "folder_open",
+          "link": "~/development/projects"
+        },
+        {
+          "visible": true,
+          "title": "Petal Perspective",
+          "icon": "spa",
+          "link": "~/development/projects/petal-perspective"
+        }
+      ]
+    }
+  ]
+}

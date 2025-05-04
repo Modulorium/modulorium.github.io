@@ -1,0 +1,30 @@
+import { Routes } from '@angular/router';
+import { HomePageComponent } from './page/home-page/home-page.component';
+import { LostComponent } from './page/lost/lost.component';
+import { LinksComponent } from './page/general/links/links.component';
+import { GeneralComponent } from './page/general/general.component';
+
+export const routes: Routes = [
+    { path: '', component: GeneralComponent },
+    { path: 'links', component: LinksComponent },
+    { path: 'archive', component: LostComponent },
+    { path: 'people', component: LostComponent },
+    { path: 'minecraft', component: LostComponent },
+    { path: 'minecraft/timeline', component: LostComponent },
+    { path: 'minecraft/prologue', component: LostComponent },
+    { path: 'minecraft/skins', component: LostComponent },
+    { path: 'minecraft/gm4', component: LostComponent },
+    { path: 'minecraft/gm4/servers', component: LostComponent },
+    { path: 'minecraft/gm4/modules', component: LostComponent },
+    { path: 'minecraft/smithed', component: LostComponent },
+    { path: 'minecraft/smithed/summit', component: LostComponent },
+    { path: 'archive/youtube', component: LostComponent },
+    { path: 'archive/games', component: LostComponent },
+    { path: 'archive/books', component: LostComponent },
+    { path: 'archive/movies', component: LostComponent },
+    { path: 'development', component: LostComponent },
+    { path: 'development/tools', component: LostComponent },
+    { path: 'development/projects', component: LostComponent },
+    { path: 'development/projects/petal-perspective', component: LostComponent },
+    { path: '**', redirectTo: '/' },
+  ];
