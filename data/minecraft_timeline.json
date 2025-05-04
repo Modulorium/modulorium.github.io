@@ -1,0 +1,137 @@
+[
+    {
+        "title": "The Beginning",
+        "date": "2013-2018",
+        "image": "",
+        "description": "My journey with Minecraft began around version 1.6. At first, I mainly enjoyed creative mode, but soon moved towards the more technical features. Experimenting with redstone, commands, and command blocks. This marked the beginning of my interest with the technical side of Minecraft. Inspired by 'only one command' creations, I gradually shifted to larger projects and ideas, often involving hundreds of command blocks. As Minecraft evolved, the addition of functions and datapacks simplified the process, allowing me to pursue even grander ideas.",
+        "category": "History",
+        "marker": [2013]
+    },
+    {
+        "title": "Planet Minecraft",
+        "date": "Jan 2018",
+        "image": "",
+        "description": "My first venture into the public Minecraft community began on Planet Minecraft. I created my account on January 17th, but wouldn't post anything for a few months.",
+        "category": "Datapack",
+        "marker": [2018,1,17]
+    },
+    {
+        "title": "Ender XP Datapack",
+        "date": "Jul 2018",
+        "image": "",
+        "description": "In July 2018, I would release my first datapack, Ender XP. Although it was a very simple datapack that had been done before, it was the first time I put myself out there.",
+        "category": "Datapack",
+        "marker": [2018,7,27]
+    },
+    {
+        "title": "Colorful Sheep Datapack",
+        "date": "Aug 2018",
+        "image": "",
+        "description": "Only a few days after the release of Ender XP, I would release Colorful Sheep. A simple datapack that made all sheep randomly spawn as any color.",
+        "category": "Datapack",
+        "marker": [2018,8,1]
+    },
+    {
+        "title": "Gamemode 4",
+        "date": "Oct 2019",
+        "image": "",
+        "description": "My history with Gamemode 4 is a bit messy. I'm not entirely sure when I found out about it, probably from searching 'only one command' creations or when I saw Hermitcraft playing with Gamemode 4 modules. Eventually a member from the discord would get me to join the public server where I played until it closed about a month later. Since then, I've consistently been a part of the community and played on every public server since.",
+        "category": "Gamemode 4",
+        "marker": [2019,10,27]
+    },
+    {
+        "title": "Shiny Items PR",
+        "date": "Aug 2020",
+        "image": "",
+        "description": "After a few months of playing on the GM4 public server, I decided to showcase my skills by submitting my first pull request for a module called Shiny Items. However, it didn't go well. My code was unoptimized and the idea, in hindsight, was quite bad. This experience was very tough initially because I had never received feedback on my creations before, eventually I learned that it wasn't personal and that constructive criticism is an essential part of growth. Despite this setback, I pushed on and worked hard to improve my skills and learn from my mistakes.",
+        "category": "",
+        "marker": [2020,8,5]
+    },
+    {
+        "title": "Trash Cans PR",
+        "date": "Sep 2020",
+        "image": "",
+        "description": "In the next month I would submit another PR for a moduleI will admit... At this point I was just trying to get something accepted, no matter what it would take. Its not that the idea was bad, but like... Really? Is this all I could come up with. ",
+        "category": "",
+        "marker": [2020,9,27]
+    },
+    {
+        "title": "",
+        "date": "",
+        "image": "",
+        "description": "",
+        "category": "",
+        "marker": [2018,8,1]
+    },
+    {
+        "title": "",
+        "date": "",
+        "image": "",
+        "description": "",
+        "category": "",
+        "marker": [2018,8,1]
+    },
+    {
+        "title": "Live Catch",
+        "date": "Oct 2021",
+        "image": "",
+        "description": "My first module accepted by GM4 was Live Catch. This module added a touch of realism to fishing by allowing players to catch living fish with fishing rods. Despite its simplicity, Live Catch brought me immense joy, especially when I saw players receiving the 'Watch Out' advancement in-game, indicating they had been smacked in the face with a pufferfish. It was a small feature, but it felt like it fit the game well and added a bit of suspense when fishing.",
+        "category": "Module"
+    },
+    {
+        "title": "Chest Boats",
+        "date": "Oct 2021",
+        "image": "",
+        "description": "Following Live Catch, my second module, Chest Boats, was accepted a few days later. This module allowed chest minecarts to merge into boats, thus creating a boat with a chest. It was a simple yet practical addition that aimed to make exploring easier in the early game. Shortly after its acceptance, Mojang implemented a similar feature into the base game, rendering my module redundant. Nevertheless, it was fun to make and was convenient while we waited for the official release.",
+        "category": "Module"
+    },
+    {
+        "title": "Moving Up",
+        "date": "July 2021",
+        "image": "",
+        "description": "I joined the Gamemode 4 staff team in July 2021 after applying through a form they had posted. I was accepted as both a Moderator and a Developer for the public server. During my trial period, I contributed significantly to the creation of NPCs and quests for the Stanley Summer Event on Public Server 7. This event served as a way to give players access to the blocks added in the newest update, as the world generation hadn't been implemented yet. It was a rewarding experience to be involved in developing features for the server I played on and I got to do so while working alongside an amazing team.",
+        "category": "Gamemode 4"
+    },
+    {
+        "title": "Obsolescence",
+        "date": "Sep 2021",
+        "image": "",
+        "description": "After joining the GM4 staff team, I was given the opportunity to contribute to the group's first custom map. It was a capture-the-monument style survival map, requiring players to explore and complete various dungeons and puzzles. My initial contribution was in building and decorating a cave system. However, I was soon asked to help create challenges for the map. These included a spooky forest where players had to navigate blind while avoiding the darkness, a wave survival arena with a changing environment, and a simple time trial that allowed players to complete it in various ways.",
+        "category": "Gamemode 4"
+    },
+    {
+        "title": "Rope Ladders",
+        "date": "Apr 2022",
+        "image": "",
+        "description": "Rope Ladders was my third accepted module, and it offered both quality-of-life improvements and aesthetic enhancements. This module allowed players to place ladders downwards, creating a hanging ladder in mid-air. It not only made traversing caves and ravines more convenient but also added a visually appealing element to various builds. Rope Ladder demonstrated how even small additions could greatly enhance the experience in more ways than you may originally intend.",
+        "category": "Module"
+    },
+    {
+        "title": "Dragon Fight",
+        "date": "Jan 2022",
+        "image": "",
+        "description": "This season's dragon fight did not turn out how I hoped it would. The concept went through numerous alterations almost every meeting until it deviated significantly from my initial vision. I essentially worked on it alone so I was left feeling unsatisfied the entire time. Despite completing it on time and making every change requested, the end result was still a failure. Due to the design of the fight, it lacked visual appeal and was confusing. Worst of all, a misconfigured plugin caused the fight to break, resulting in a very short duration. This was a really painful experience but I pushed on and learned valuable lessons in knowing when to speak up and not trying to do too much on my own.",
+        "category": "Public Server 8"
+    },
+    {
+        "title": "NPC Mania",
+        "date": "Dec 2022",
+        "image": "",
+        "description": "My main contribution to this season was the creation of an NPC library. This allowed for the creation of NPCs with a basic dialogue system and trade manager. The server had six spawn NPCs: Clarence the Animalulator, who provided information about players' horses; Thompson the Barkeeper, who sold fun potions with special cosmetic effects; Pete the Paperboy, who shared news about the server; Quezel the Hatter, who sold a variety of custom hats; Sammus the Runesmith, who sold GM4 runes for decoration; and Chekz the Relic Hunter, who sold nonrenewable items. I learned a lot of valuable lessons when creating this system and I knew that it could be bigger and better.",
+        "category": "Public Server 9"
+    },
+    {
+        "title": "NPC Addiction",
+        "date": "Jan 2024",
+        "image": "",
+        "description": "For this season, I aimed to revamp the NPC system with a complete rewrite of the library. Thanks to multiple updates, I was able to create a vastly superior system that automated many previously time-consuming tasks. Incorporating feedback from the previous server, I focused on quality over quantity. I reintroduced Pete the Paperboy, Quezel the Hatter, and Chekz the Relic Hunter, completely remade with more interactions, dialogue, and quests. Additionally, I was tasked with creating challenges for unlocking the server's 70+ modules, so I introduced a bunch of additional NPCs, each with unique quests tailored to their personalities and the modules they unlocked. I already have a ton of ideas for version 3 that I will inevitably make for the next server.",
+        "category": "Public Server 10"
+    },
+    {
+        "title": "Dragon Redemption",
+        "date": "May 2024",
+        "image": "",
+        "description": "Coming May 4th",
+        "category": "Public Server 10"
+    }
+]

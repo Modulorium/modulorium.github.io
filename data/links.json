@@ -1,0 +1,158 @@
+[
+  {
+    "category": "Development",
+    "color": "#80afcd",
+    "icon": "code",
+    "links": [
+      {
+        "visible": true,
+        "platform": "Github",
+        "name": "Modulo",
+        "username": "Modulorium",
+        "icon": "github",
+        "link": "https://github.com/modulorium",
+        "type": "external"
+      },
+      {
+        "visible": true,
+        "platform": "itch.io",
+        "name": "Modulo",
+        "username": "Modulorium",
+        "icon": "itchio",
+        "link": "https://modulorium.itch.io/",
+        "type": "external"
+      },
+      {
+        "visible": true,
+        "platform": "Planet Minecraft",
+        "name": "",
+        "username": "Modulorium",
+        "icon": "planet_minecraft",
+        "link": "https://www.planetminecraft.com/member/modulorium/",
+        "type": "external"
+      },
+      {
+        "visible": true,
+        "platform": "Modrinth",
+        "name": "",
+        "username": "Modulorium",
+        "icon": "modrinth",
+        "link": "https://modrinth.com/user/Modulorium",
+        "type": "external"
+      }
+    ]
+  },
+  {
+    "category": "Social",
+    "color": "#d8bd65",
+    "icon": "interpreter_mode",
+    "links": [
+      {
+        "visible": true,
+        "platform": "Gmail",
+        "name": "",
+        "username": "modulorium",
+        "icon": "gmail",
+        "link": "modulorium@gmail.com",
+        "type": "email"
+      },
+      {
+        "visible": true,
+        "platform": "Discord",
+        "name": "Modulo",
+        "username": "modulorium",
+        "icon": "discord",
+        "link": "https://discordapp.com/users/275324791098048513",
+        "type": "external"
+      },
+      {
+        "visible": true,
+        "platform": "Bluesky",
+        "name": "Modulorium",
+        "username": "modulorium.bsky.social",
+        "icon": "bluesky",
+        "link": "https://bsky.app/profile/modulorium.bsky.social",
+        "type": "external"
+      },
+      {
+        "visible": true,
+        "platform": "Reddit",
+        "name": "Modulo",
+        "username": "Modulorium",
+        "icon": "reddit",
+        "link": "https://www.reddit.com/user/Modulorium/",
+        "type": "external"
+      },
+      {
+        "visible": true,
+        "platform": "Youtube",
+        "name": "Modulo",
+        "username": "Modulorium",
+        "icon": "youtube",
+        "link": "https://www.youtube.com/@Modulorium",
+        "type": "external"
+      },
+      {
+        "visible": false,
+        "platform": "Twitch",
+        "name": "Modulorium",
+        "username": "Modulorium",
+        "icon": "twitch",
+        "link": "https://www.twitch.tv/modulorium",
+        "type": "external"
+      },
+      {
+        "visible": false,
+        "platform": "Twitter",
+        "name": "Modulo",
+        "username": "Modulorium",
+        "icon": "twitter",
+        "link": "https://x.com/Modulorium",
+        "type": "external"
+      }
+    ]
+  },
+  {
+    "category": "Gaming",
+    "color": "#49af55",
+    "icon": "sports_esports",
+    "links": [
+      {
+        "visible": true,
+        "platform": "Steam",
+        "name": "Modulo",
+        "username": "modulorium",
+        "icon": "steam",
+        "link": "https://steamcommunity.com/id/modulorium/",
+        "type": "external"
+      },
+      {
+        "visible": true,
+        "platform": "Minecraft",
+        "name": "",
+        "username": "Modulorium",
+        "icon": "minecraft",
+        "link": "https://namemc.com/profile/Modulorium.1",
+        "type": "external"
+      },
+      {
+        "visible": false,
+        "platform": "GOG",
+        "name": "",
+        "username": "Modulorium",
+        "icon": "gog",
+        "link": "https://www.gog.com/u/Modulorium",
+        "type": "external"
+      },
+      {
+        "visible": false,
+        "platform": "XBOX",
+        "name": "",
+        "username": "Modulorium",
+        "icon": "xbox",
+        "link": "https://www.xbox.com/en-US/play/user/Modulorium",
+        "type": "external"
+      }
+    ]
+  }
+]
