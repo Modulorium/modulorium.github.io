@@ -12,22 +12,22 @@
           "link": ">General|/"
         },
         {
-          "visible": false,
+          "visible": true,
           "title": "Minecraft",
           "icon": "north_east",
           "link": ">Minecraft|/minecraft"
         },
         {
-          "visible": false,
-          "title": "Archive",
-          "icon": "inventory_2",
-          "link": ">Archive|/archive"
-        },
-        {
-          "visible": false,
+          "visible": true,
           "title": "Development",
           "icon": "code",
           "link": ">Development|/development"
+        },
+        {
+          "visible": true,
+          "title": "Archive",
+          "icon": "inventory_2",
+          "link": ">Archive|/archive"
         }
       ]
     }
@@ -70,7 +70,7 @@
           "link": "~/minecraft"
         },
         {
-          "visible": true,
+          "visible": false,
           "title": "Timeline",
           "icon": "timeline",
           "link": "~/minecraft/timeline"
@@ -82,19 +82,19 @@
       "icon": "",
       "options": [
         {
-          "visible": true,
+          "visible": false,
           "title": "Gamemode 4",
           "icon": "grid_view",
           "link": "~/minecraft/gm4"
         },
         {
-          "visible": true,
+          "visible": false,
           "title": "Servers",
           "icon": "dns",
           "link": "~/minecraft/gm4/servers"
         },
         {
-          "visible": true,
+          "visible": false,
           "title": "Modules",
           "icon": "package_2",
           "link": "~/minecraft/gm4/modules"
@@ -106,13 +106,13 @@
       "icon": "",
       "options": [
         {
-          "visible": true,
+          "visible": false,
           "title": "Smithed",
           "icon": "hardware",
           "link": "~/minecraft/smithed"
         },
         {
-          "visible": true,
+          "visible": false,
           "title": "Summit",
           "icon": "volcano",
           "link": "~/minecraft/smithed/summit"
@@ -132,25 +132,25 @@
           "link": "~/archive"
         },
         {
-          "visible": true,
+          "visible": false,
           "title": "Youtube",
           "icon": "slideshow",
           "link": "~/archive/youtube"
         },
         {
-          "visible": true,
+          "visible": false,
           "title": "Games",
           "icon": "sports_esports",
           "link": "~/archive/games"
         },
         {
-          "visible": true,
+          "visible": false,
           "title": "Books",
           "icon": "book_2",
           "link": "~/archive/books"
         },
         {
-          "visible": true,
+          "visible": false,
           "title": "Movies",
           "icon": "movie",
           "link": "~/archive/movies"
@@ -170,7 +170,7 @@
           "link": "~/development"
         },
         {
-          "visible": true,
+          "visible": false,
           "title": "Tools",
           "icon": "handyman",
           "link": "~/development/tools"
@@ -182,13 +182,13 @@
       "icon": "",
       "options": [
         {
-          "visible": true,
+          "visible": false,
           "title": "Projects",
           "icon": "folder_open",
           "link": "~/development/projects"
         },
         {
-          "visible": true,
+          "visible": false,
           "title": "Petal Perspective",
           "icon": "spa",
           "link": "~/development/projects/petal-perspective"
