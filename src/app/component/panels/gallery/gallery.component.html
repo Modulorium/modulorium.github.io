@@ -1,0 +1,23 @@
+
+<div class="container" >
+    <div class="box" [style.transform]="flip ? 'scaleX(-1)' : ''">
+        
+        <div class="image single" *ngIf="images.length == 1">
+            <img [src]="images[0].link" [title]="images[0].title" [style.transform]="images[0].flip ? 'scaleX(-1)' : ''">
+        </div>
+
+        <span *ngIf="images.length > 1">
+
+            @for (image of images; track image; let i = $index) {
+    
+                <div class="image dsn_2"  [ngClass]="i%3 == 0 ? 'upper' : i%3 == 2 ? 'bottom' : 'middle'" [style.transform]="'translateY('+(i*-50)+'%)'">
+                    <img [src]="image.link" [title]="image.title" [style.transform]="image.flip ? 'scaleX(-1)' : ''">
+                </div>
+        
+            }
+
+        </span>
+    
+    </div>
+    
+</div>

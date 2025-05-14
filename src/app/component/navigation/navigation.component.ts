@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { GroupComponent, NavigationGroup, NavigationItem } from './group/group.component';
+import { WebsiteService } from '../../service/website.service';
 
 @Component({
   selector: 'app-navigation',
@@ -16,7 +17,7 @@ export class NavigationComponent {
 
   // ===== Constructor =====
 
-  constructor(private router: Router, private http: HttpClient) {
+  constructor(private router: Router, private http: HttpClient, public website: WebsiteService) {
     this.asyncConstructor();
   }
   
@@ -27,7 +28,6 @@ export class NavigationComponent {
   // ===== Variables =====
 
   collapsed: boolean = localStorage.getItem('navigation:collapsed') === 'true';
-  activeSection: string = localStorage.getItem('activeSection') || "General";
   navigation: Map<string, NavigationGroup[]> = new Map();
   navigationSections: NavigationGroup = new NavigationGroup();
 
@@ -42,12 +42,12 @@ export class NavigationComponent {
     if (link.startsWith('~')) {
       this.router.navigate([link.slice(1)]);
     } else if (link.startsWith('>')) {
-      this.activeSection = link.split("|")[0].slice(1)
+      this.website.activeSection = link.split("|")[0].slice(1)
       this.router.navigate([link.split("|")[1]]);
     } else {
       window.location.href = link;
     }
-    localStorage.setItem('activeSection', this.activeSection);
+    localStorage.setItem('activeSection', this.website.activeSection);
   }
 
   // ===== Helper =====

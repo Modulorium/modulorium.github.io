@@ -1,0 +1,28 @@
+
+<div class="panels" [style.gap]="gap" *ngIf="panels.length > 0">
+
+    @for (panel of panels; track panel; let i = $index) {
+
+        <div class="panel" (click)="clickPanel(panel)">
+
+            <div class="header">
+
+                <h1>{{panel.name}}</h1>
+                <p>{{panel.description}}</p>
+                
+
+            </div>
+
+            <div class="gallery">
+
+                <app-gallery [images]="panel.images" [flip]="i%2==0"></app-gallery>
+
+            </div>
+
+        </div>
+
+    }
+
+</div>
+
+

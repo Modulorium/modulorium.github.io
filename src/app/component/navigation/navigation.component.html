@@ -11,13 +11,13 @@
 
         <!-- Primary Options -->
         <span class="section options primary">
-            <app-group [data]="navigationSections" [collapsed]="collapsed" (optionClicked)="optionClicked($event)" [activeSection]="activeSection"></app-group>
+            <app-group [data]="navigationSections" [collapsed]="collapsed" (optionClicked)="optionClicked($event)" [activeSection]="website.activeSection"></app-group>
         </span>
 
         <!-- Secondary Options -->
         <div class="section options secondary">
-            @for (option of this.navigation.get(this.activeSection); track option) {
-                <app-group [data]="option" [collapsed]="collapsed" (optionClicked)="optionClicked($event)" [activeSection]="activeSection"></app-group>
+            @for (option of this.navigation.get(this.website.activeSection); track option) {
+                <app-group [data]="option" [collapsed]="collapsed" (optionClicked)="optionClicked($event)" [activeSection]="website.activeSection"></app-group>
             }
         </div>
 

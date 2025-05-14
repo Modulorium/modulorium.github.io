@@ -3,9 +3,19 @@
     <div class="screen profile">
 
         
-        <div class="box">
-            <h1>Welcome to my website!</h1>
-            <h2>(still being worked on)</h2>
+        <div class="center_box">
+
+            <div class="top_half">
+
+                <app-profile [image]="profilePicture"></app-profile>
+                
+            </div>
+
+            <div class="bottom_half">
+
+                <app-panels [panels]="panels" gap="2%"></app-panels>
+                
+            </div>
 
         </div>
 

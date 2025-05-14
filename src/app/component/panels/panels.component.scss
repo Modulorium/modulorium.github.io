@@ -1,0 +1,54 @@
+
+.panels {
+
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+}
+
+.panel {
+
+    flex: 1;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: #45545a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+
+    &:hover {
+        background: #5b6e76;
+    }
+}
+
+.header {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid transparent;    
+}
+
+.gallery {
+    padding: 0px 20px 20px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    font-size: 2.5vh;
+}
+
+p {
+    color: white;
+    text-align: left;
+    margin: 0px;
+    font-size: 1.5vh;
+}

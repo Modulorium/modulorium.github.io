@@ -1,0 +1,52 @@
+
+.box {
+
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #45545a;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
+
+.image {
+
+    padding: 10px;
+    aspect-ratio: 3/4;
+    width: 15vw;
+    
+    .container {
+
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            background: #5b6e76;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+
+    }
+
+}
+
+.content {
+
+    flex: 1;
+    margin: 20px 20px 20px 0px;
+    border-radius: 10px;
+    background: #5b6e76;
+    border: 2px solid black;
+
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+}

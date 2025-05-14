@@ -1,0 +1,72 @@
+[
+    {
+        "name": "General",
+        "description": "Go back to the home page and discover more...",
+        "images": [
+            {
+                "link": "image/panel/gen_1.png",
+                "title": "Missing Title"
+            }
+        ],
+        "link": "/"
+    },
+    {
+        "name": "Minecraft",
+        "description": "Learn more about my history with command blocks and datapacks...",
+        "images": [
+            {
+                "link": "image/panel/mc_2.png",
+                "title": "Gamemode 4 Display"
+            },
+            {
+                "link": "image/panel/mc_1.png",
+                "title": "The Hatter NPC"
+            },
+            {
+                "link": "image/panel/mc_3.png",
+                "title": "Smithed Summit"
+            }
+        ],
+        "link": "/minecraft"
+    },
+    {
+        "name": "Development",
+        "description": "Learn more about my other development projects...",
+        "images": [
+            {
+                "link": "image/panel/dev_3.png",
+                "title": "Missing Title"
+            },
+            {
+                "link": "image/panel/dev_1.jpg",
+                "title": "Missing Title"
+            },
+            {
+                "link": "image/panel/dev_2.png",
+                "title": "Missing Title"
+            }
+        ],
+        "link": "/development"
+    },
+    {
+        "name": "Archive",
+        "description": "A collection of useful information, reviews, etc...",
+        "images": [
+            {
+                "link": "image/panel/arc_2.jpg",
+                "title": "Missing Title",
+                "flip": true
+            },
+            {
+                "link": "image/panel/arc_1.png",
+                "title": "Missing Title"
+            },
+            {
+                "link": "image/panel/arc_3.png",
+                "title": "Missing Title",
+                "flip": true
+            }
+        ],
+        "link": "/archive"
+    }
+]
