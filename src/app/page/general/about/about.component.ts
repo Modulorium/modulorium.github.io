@@ -40,7 +40,7 @@ export class AboutComponent {
         },
         {
             image: "page/general/about/horizon.png",
-            text: "I'm genuinely excited for what the future holds. Where I stand today as a person would've been possible without the communities I've had the honor of being a part of and all the amazing people I've had the pleasure of growing alongside. I'm grateful for where I've been and looking forward to what's next.",
+            text: "I'm genuinely excited for what the future holds. Where I stand today as a person wouldn't have been possible without the communities I've had the honor of being a part of and all the amazing people I've had the pleasure of growing alongside. I'm grateful for where I've been and looking forward to what's next.",
             flip: true
         }
     ]
