@@ -9,6 +9,6 @@ import { CommonModule } from '@angular/common'
 })
 export class ProfileComponent {
     
-	@Input() image: string = "image/profile/def.png"
+	@Input() profileData: any = {}
 
 }

@@ -12,7 +12,7 @@ import { WebsiteService } from '../../service/website.service';
 })
 export class PanelsComponent {
 
-	@Input() panels: Panel[] = []
+	@Input() profileData: any = {}
 	@Input() gap: string = "20px";
 
 	constructor(private router: Router, public website: WebsiteService) {

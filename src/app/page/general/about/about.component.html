@@ -1,0 +1,19 @@
+
+<div class="box">
+
+    @for (paragraph of paragraphs; track paragraph; let i = $index) {
+        <div class="row">
+            <div class="image" *ngIf="paragraph.image && (paragraph.flip ? i+1 : i)%2==1">
+                <img [src]="paragraph.image">
+
+            </div>
+            <div class="content" [style.text-align]="paragraph.image && i%2==0 ? 'center' : 'center'" [style.width]="paragraph.image ? '' : '100%'">
+                <p>{{paragraph.text}}</p>
+            </div>
+            <div class="image" *ngIf="paragraph.image && (paragraph.flip ? i+1 : i)%2==0">
+                <img [src]="paragraph.image">
+            </div>
+        </div>
+    }
+
+</div>

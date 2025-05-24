@@ -38,6 +38,7 @@ export class NavigationGroup {
   title: string = ""
   icon: string = ""
   options: NavigationItem[] = [];
+  visible?: any;
 }
 
 export class NavigationItem {

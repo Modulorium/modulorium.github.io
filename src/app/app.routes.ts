@@ -1,11 +1,20 @@
 import { Routes } from '@angular/router';
 import { LostComponent } from './page/lost/lost.component';
+
 import { LinksComponent } from './page/general/links/links.component';
+import { AboutComponent } from './page/general/about/about.component';
+import { NowComponent } from './page/general/now/now.component';
+import { EndorsedComponent } from './page/general/endorsed/endorsed.component';
+
 import { GeneralComponent } from './page/general/general.component';
 
 export const routes: Routes = [
     { path: '', component: GeneralComponent },
     { path: 'links', component: LinksComponent },
+    { path: 'about', component: AboutComponent },
+    { path: 'now', component: NowComponent },
+    { path: 'endorsed', component: EndorsedComponent },
+
     { path: 'people', component: LostComponent },
     { path: 'minecraft', component: GeneralComponent },
     { path: 'minecraft/timeline', component: LostComponent },

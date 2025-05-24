@@ -42,18 +42,43 @@
           "title": "Home",
           "icon": "home",
           "link": "~/"
+        }
+      ]
+    },
+    {
+      "title": "About Me",
+      "icon": "",
+      "options": [
+        {
+          "visible": true,
+          "title": "About",
+          "icon": "person",
+          "link": "~/about"
+        },
+        {
+          "visible": false,
+          "title": "Now",
+          "icon": "list_alt",
+          "link": "~/now"
         },
         {
           "visible": true,
           "title": "Links",
           "icon": "link",
           "link": "~/links"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Other",
+      "icon": "",
+      "visible": false,
+      "options": [
         {
           "visible": false,
-          "title": "People",
-          "icon": "group",
-          "link": "~/people"
+          "title": "Endorsed",
+          "icon": "verified",
+          "link": "~/endorsed"
         }
       ]
     }
@@ -80,21 +105,22 @@
     {
       "title": "Gamemode 4",
       "icon": "",
+      "visible": false,
       "options": [
         {
-          "visible": false,
+          "visible": true,
           "title": "Gamemode 4",
           "icon": "grid_view",
           "link": "~/minecraft/gm4"
         },
         {
-          "visible": false,
+          "visible": true,
           "title": "Servers",
           "icon": "dns",
           "link": "~/minecraft/gm4/servers"
         },
         {
-          "visible": false,
+          "visible": true,
           "title": "Modules",
           "icon": "package_2",
           "link": "~/minecraft/gm4/modules"
@@ -104,15 +130,16 @@
     {
       "title": "Smithed",
       "icon": "",
+      "visible": false,
       "options": [
         {
-          "visible": false,
+          "visible": true,
           "title": "Smithed",
           "icon": "hardware",
           "link": "~/minecraft/smithed"
         },
         {
-          "visible": false,
+          "visible": true,
           "title": "Summit",
           "icon": "volcano",
           "link": "~/minecraft/smithed/summit"
@@ -130,27 +157,34 @@
           "title": "Home",
           "icon": "home",
           "link": "~/archive"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Resources",
+      "icon": "",
+      "visible": false,
+      "options": [
         {
-          "visible": false,
+          "visible": true,
           "title": "Youtube",
           "icon": "slideshow",
           "link": "~/archive/youtube"
         },
         {
-          "visible": false,
+          "visible": true,
           "title": "Games",
           "icon": "sports_esports",
           "link": "~/archive/games"
         },
         {
-          "visible": false,
+          "visible": true,
           "title": "Books",
           "icon": "book_2",
           "link": "~/archive/books"
         },
         {
-          "visible": false,
+          "visible": true,
           "title": "Movies",
           "icon": "movie",
           "link": "~/archive/movies"
@@ -180,15 +214,16 @@
     {
       "title": "Projects",
       "icon": "",
+      "visible": false,
       "options": [
         {
-          "visible": false,
+          "visible": true,
           "title": "Projects",
           "icon": "folder_open",
           "link": "~/development/projects"
         },
         {
-          "visible": false,
+          "visible": true,
           "title": "Petal Perspective",
           "icon": "spa",
           "link": "~/development/projects/petal-perspective"

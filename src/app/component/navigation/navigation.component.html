@@ -17,7 +17,7 @@
         <!-- Secondary Options -->
         <div class="section options secondary">
             @for (option of this.navigation.get(this.website.activeSection); track option) {
-                <app-group [data]="option" [collapsed]="collapsed" (optionClicked)="optionClicked($event)" [activeSection]="website.activeSection"></app-group>
+                <app-group [data]="option" [collapsed]="collapsed" (optionClicked)="optionClicked($event)" [activeSection]="website.activeSection" *ngIf="option.visible != false"></app-group>
             }
         </div>
 

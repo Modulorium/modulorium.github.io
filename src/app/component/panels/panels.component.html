@@ -1,9 +1,9 @@
 
-<div class="panels" [style.gap]="gap" *ngIf="panels.length > 0">
+<div class="panels" [style.gap]="gap" *ngIf="profileData.panels.length > 0">
 
-    @for (panel of panels; track panel; let i = $index) {
+    @for (panel of profileData.panels; track panel; let i = $index) {
 
-        <div class="panel" (click)="clickPanel(panel)">
+        <div class="panel" (click)="clickPanel(panel)" [style.background]="profileData.title == panel.name ? '#6a808a' : ''">
 
             <div class="header">
 

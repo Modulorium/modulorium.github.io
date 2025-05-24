@@ -7,13 +7,13 @@
 
             <div class="top_half">
 
-                <app-profile [image]="profilePicture"></app-profile>
+                <app-profile [profileData]="profileData"></app-profile>
                 
             </div>
 
             <div class="bottom_half">
 
-                <app-panels [panels]="panels" gap="2%"></app-panels>
+                <app-panels [profileData]="profileData" gap="2%"></app-panels>
                 
             </div>
 

@@ -54,24 +54,6 @@ export class LinksComponent {
     }
 
 }
-// export class LinksComponent {
-
-//   linkSections: LinkCategory[] = [];
-  
-//   constructor(private http: HttpClient) {
-//     this.asyncConstructor();
-//   }
-
-//   async asyncConstructor() {
-//     this.linkSections = await this.fetchLinksData()
-//   }
-
-//   async fetchLinksData(): Promise<LinkCategory[]> {
-//       const result: any = await this.http.get<any>('data/links.json').toPromise()
-//       return result;
-//     }
-
-// }
 
 class LinkCategory {
   category: string = '';

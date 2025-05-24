@@ -1,0 +1,39 @@
+
+.box {
+
+    width: 900px;
+    background: #45545a;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 50px auto;
+    padding: 10px;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.image {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+
+    img {
+        display: block;
+        object-fit: contain;
+        width: 100%;
+    }
+}
+
+.content {
+    width: 60%;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
